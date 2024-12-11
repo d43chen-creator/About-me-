@@ -39,21 +39,35 @@
       font-style: normal;
       font-size: 18px;
       margin-left: 30%;
-      margin-top: 10%;
+      margin-top: 10% 
     }
     .layout img{
       border-radius: 15px;
-      border: 4px solid #231f20;
+      border: 3px solid #231f20;
+    }
+    h1{
+      font-size: 40px;
+      margin-right: auto;
+    }
+    .image-container h1{
+      position: absolute;
+      top: 150px;
+    }
+    .image-container img{
+      position: relative;
+      top: 10px;
     }
     .paragraph{
       flex-direction: column;
+      position: relative;
+      bottom: 40px;
     }
     .paragraph p{
       margin-bottom: 20px;
       margin-left: 20px;
       width: 50%;
     }
-    .paragraph p::last-child{
+    .paragraph p:last-child{
       margin-bottom: 0px;
       margin-left: 20px;
       width: 50%;
@@ -87,10 +101,6 @@
     }
     nav li:hover{
       background: #231f20;
-    }
-    h1{
-      font-size: 40px;
-      margin-right: auto;
     }
     #about{
       font-size: 60px;
