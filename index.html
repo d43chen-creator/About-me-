@@ -30,6 +30,27 @@
       padding-top: 2em;
       padding-left: 1em;
     }
+    .layout{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: "Poppins", serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 18px;
+    }
+    .paragraph{
+      flex-direction: column;
+    }
+    .paragraph p{
+      margin-bottom: 20px;
+      width: 70%;
+    }
+    .paragraph p::last-child{
+      margin-bottom: 0px;
+      width: 70%;
+    }
+    
     nav{
       display: flex;
       align-items: center;
@@ -63,6 +84,12 @@
       font-size: 40px;
       margin-right: auto;
     }
+    #about{
+      font-size: 60px;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
   </style>
   </head>
   <body>
@@ -79,6 +106,24 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+      </div>
+    </div>
+    <h1 id="about">
+      About me
+    </h1>
+    <div class="layout">
+      <img src="B59A2632.JPG" alt="myself" width="300">
+      <div class="paragraph">
+      <p>
+        My name is Daniel Chen, and I am currently a Global business and digital arts student at the University of Waterloo. My main interests lies in developing and designing websites.
+      </p>
+      <p>
+        During my free time, I love to watch programming and design tutorial videos to help me enhance my projects.
+      </p>
+      <p>
+        Education:
+CSS, HTML, Python, Java Script, Figma, Illustrator, Photoshop, Microsoft, Adobe express, Racket   
+      </p>
       </div>
     </div>
   </body>
